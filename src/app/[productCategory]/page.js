@@ -128,7 +128,7 @@ function HeadlingWithUnderLine({ heading }) {
   return (
     <p className="relative text-gray-800 font-bold text-xl uppercase">
       {heading}
-      <span className="absolute -bottom-2 left-0 w-14 h-[3px] bg-[#184F75]"></span>
+      <span className="absolute -bottom-2 left-0 w-[7.5rem] h-[3px] bg-[#184F75]"></span>
     </p>
   );
 }
