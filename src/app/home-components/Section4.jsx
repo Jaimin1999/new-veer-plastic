@@ -43,7 +43,7 @@ const Section4 = () => {
             className="bg-white text-[#85C447] rounded-2xl p-8 flex flex-col justify-around items-center transition duration-300 hover:bg-[#85C447] hover:text-white min-h-[14rem] shadow-md"
           >
             {service.icon}
-            <p className="mt-4 text-xs font-normal">{service.title}</p>
+            <p className="mt-4 text-[0.975rem] font-normal">{service.title}</p>
           </div>
         ))}
       </div>

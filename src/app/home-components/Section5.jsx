@@ -1,26 +1,31 @@
-import React from 'react';
-import { IconTruck, IconBuildingWarehouse, IconPackage, IconInbox } from '@tabler/icons-react';
+import React from "react";
+import {
+  IconTruck,
+  IconBuildingWarehouse,
+  IconPackage,
+  IconInbox,
+} from "@tabler/icons-react";
 
 const Section5 = () => {
   const services = [
     {
-      title: 'CUSTOMIZED & TURNKEY PACKAGING SOLUTIONS',
+      title: "CUSTOMIZED & TURNKEY PACKAGING SOLUTIONS",
       icon: <IconPackage size={48} />,
     },
     {
-      title: 'OPEN ITEMS PACKAGING SOLUTIONS',
+      title: "OPEN ITEMS PACKAGING SOLUTIONS",
       icon: <IconBuildingWarehouse size={48} />,
     },
     {
-      title: 'CUSTOMIZED INJECTION MOULDING SERVICES (TURNKEY)',
+      title: "CUSTOMIZED INJECTION MOULDING SERVICES (TURNKEY)",
       icon: <IconPackage size={48} />,
     },
     {
-      title: 'CUSTOM MOULDED PRODUCTS',
+      title: "CUSTOM MOULDED PRODUCTS",
       icon: <IconInbox size={48} />,
     },
     {
-      title: 'LOGISTICS',
+      title: "LOGISTICS",
       icon: <IconTruck size={48} />,
     },
   ];
@@ -38,7 +43,7 @@ const Section5 = () => {
             className="bg-white text-[#184F75] rounded-2xl p-8 flex flex-col justify-around items-center transition duration-300 hover:bg-[#184F75] hover:text-white min-h-[14rem] shadow-md"
           >
             {service.icon}
-            <p className="mt-4 text-xs font-normal">{service.title}</p>
+            <p className="mt-4 text-[0.975rem] font-normal">{service.title}</p>
           </div>
         ))}
       </div>
